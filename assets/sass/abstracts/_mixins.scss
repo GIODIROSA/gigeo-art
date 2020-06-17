@@ -1,0 +1,12 @@
+@mixin titulo{
+    font-family: $titulo-videos;
+    font-weight: $video-titulos;
+    margin: 0px;
+}
+
+
+@mixin texto{
+    font-family: $titulo-videos;
+    font-weight: $texto-seguidores;
+    margin: 0px;
+}

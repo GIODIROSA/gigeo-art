@@ -9920,10 +9920,42 @@ img {
   max-width: 100%;
 }
 
+.videos__titulo {
+  text-align: center;
+  padding: 20px 0px;
+  font-family: "MuseoModerno", cursive;
+  font-weight: 800;
+  margin: 0px;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: "MuseoModerno", cursive;
+  font-weight: 800;
+  margin: 0px;
+  padding: 10px 0px;
+}
+
+.seguidores {
+  font-family: "MuseoModerno", cursive;
+  font-weight: 300;
+  margin: 0px;
+  padding: 10px 0px 20px 0px;
+}
+
 #videos {
   padding: 20px;
 }
 
+.button {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1980px) {
+  .button {
+    display: block;
+  }
+}
 .hero-section {
   background-image: url(../img/image-banner.png);
   background-position: center;
@@ -9933,7 +9965,6 @@ img {
 }
 
 .profile {
-  background: yellowgreen;
   padding: 25px 0px;
   display: flex;
   justify-content: center;
@@ -9947,6 +9978,15 @@ img {
 .profile .profile__usuario p {
   margin: 0px;
   padding-left: 20px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1980px) {
+  #perfil {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

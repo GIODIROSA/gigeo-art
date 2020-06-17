@@ -1,0 +1,18 @@
+.videos__titulo{
+    text-align: center;
+    padding: 20px 0px;
+    @include titulo;
+    font-size: 30px;
+}
+
+
+h3{
+    @include titulo;
+    padding: 10px 0px;
+}
+
+
+.seguidores{
+    @include texto;
+    padding: 10px 0px 20px 0px;
+}
