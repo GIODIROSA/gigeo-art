@@ -9943,10 +9943,21 @@ h3 {
   padding: 10px 0px 20px 0px;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1980px) {
+  .videos__titulo {
+    text-align: start;
+    padding: 60px 0px;
+  }
+}
 #videos {
   padding: 20px;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1980px) {
+  #videos {
+    padding: 0px 150px;
+  }
+}
 .button {
   display: none;
 }
@@ -9955,15 +9966,29 @@ h3 {
   .button {
     display: block;
   }
+
+  .button__uno:hover {
+    background: violet;
+  }
+
+  .button__dos:hover {
+    background: turquoise;
+  }
 }
 .hero-section {
   background-image: url(../img/image-banner.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 150px;
+  height: 250px;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1980px) {
+  .hero-section {
+    background-attachment: fixed;
+    height: 550px;
+  }
+}
 .profile {
   padding: 25px 0px;
   display: flex;
@@ -9985,8 +10010,12 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 60px;
+    padding: 0px 150px;
   }
+}
+.navbar {
+  width: 100%;
+  position: fixed;
 }
 
 /*# sourceMappingURL=style.css.map */

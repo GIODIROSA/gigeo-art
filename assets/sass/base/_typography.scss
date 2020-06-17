@@ -16,3 +16,11 @@ h3{
     @include texto;
     padding: 10px 0px 20px 0px;
 }
+
+// aplicar media queries
+@media only screen and (min-width: 768px) and (max-width: 1980px){
+    .videos__titulo{
+        text-align: start;
+        padding: 60px 0px;
+    }
+}
