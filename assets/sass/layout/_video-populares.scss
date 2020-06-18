@@ -3,8 +3,12 @@
 }
 
 // aplicar media queries
-
-@media only screen and (min-width: 768px) and (max-width: 1980px){
+@media only screen and (min-width: 600px) and (max-width: 899px){
+    #videos{
+        padding: 0px 100px;
+    }
+}
+@media only screen and (min-width: 899px) and (max-width: 1980px){
     #videos{
         padding: 0px 150px;
     }

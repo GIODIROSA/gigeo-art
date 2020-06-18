@@ -9920,13 +9920,36 @@ img {
   max-width: 100%;
 }
 
+.logo {
+  display: flex;
+}
+.logo .logo__titulo {
+  font-size: 50px;
+  font-weight: 600;
+  margin: 0px;
+}
+.logo .logo__registro {
+  padding-top: 10px;
+}
+
+.usuario__name {
+  font-family: "MuseoModerno", cursive;
+  font-size: 30px;
+}
+
+.usuario__seguidores {
+  font-family: "MuseoModerno", cursive;
+  font-weight: 300;
+  margin: 0px;
+}
+
 .videos__titulo {
   text-align: center;
   padding: 20px 0px;
   font-family: "MuseoModerno", cursive;
   font-weight: 800;
   margin: 0px;
-  font-size: 30px;
+  font-size: 1.5625rem;
 }
 
 h3 {
@@ -9953,7 +9976,12 @@ h3 {
   padding: 20px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1980px) {
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  #videos {
+    padding: 0px 100px;
+  }
+}
+@media only screen and (min-width: 899px) and (max-width: 1980px) {
   #videos {
     padding: 0px 150px;
   }
@@ -9962,7 +9990,7 @@ h3 {
   display: none;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1980px) {
+@media only screen and (min-width: 900px) and (max-width: 1980px) {
   .button {
     display: block;
   }
@@ -9976,14 +10004,14 @@ h3 {
   }
 }
 .hero-section {
-  background-image: url(../img/image-banner.png);
+  background-image: url(../img/image-banner-2.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 250px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1980px) {
+@media only screen and (min-width: 1000px) and (max-width: 1980px) {
   .hero-section {
     background-attachment: fixed;
     height: 550px;
@@ -10005,7 +10033,7 @@ h3 {
   padding-left: 20px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1980px) {
+@media only screen and (min-width: 900px) and (max-width: 1980px) {
   #perfil {
     display: flex;
     justify-content: space-between;
@@ -10016,6 +10044,14 @@ h3 {
 .navbar {
   width: 100%;
   position: fixed;
+  z-index: 1;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1980px) {
+  .navbar {
+    padding: 0px 150px;
+    height: auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,5 @@
 .hero-section{
-    background-image: url(../img/image-banner.png);
+    background-image: url(../img/image-banner-2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,7 +8,7 @@
 
 // aplicar media queries
 
-@media only screen and (min-width: 768px) and (max-width: 1980px){
+@media only screen and (min-width: 1000px) and (max-width: 1980px){
     .hero-section{
         background-attachment: fixed;
         height: 550px;

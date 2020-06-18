@@ -1,17 +1,36 @@
+// tipografia de logo
+.logo{
+    display: flex;
+    .logo__titulo{
+        font-size: 50px;
+        font-weight: $logo-weight;
+        margin: 0px;
+    }
+    .logo__registro{
+        padding-top: 10px;
+    }
+}
+
+// tipografia de profile
+.usuario__name{
+    font-family: $titulo-videos;
+    font-size: 30px;
+}
+.usuario__seguidores{
+    @include texto;
+}
+
+// tipografia de videos
 .videos__titulo{
     text-align: center;
     padding: 20px 0px;
     @include titulo;
-    font-size: 30px;
+    font-size: 1.5625rem;
 }
-
-
 h3{
     @include titulo;
     padding: 10px 0px;
 }
-
-
 .seguidores{
     @include texto;
     padding: 10px 0px 20px 0px;
