@@ -9986,6 +9986,7 @@ h3 {
     padding: 0px 150px;
   }
 }
+/*configuracion de los botones*/
 .button {
   display: none;
 }
@@ -9995,12 +9996,21 @@ h3 {
     display: block;
   }
 
+  .button__uno {
+    background: #a6dcef;
+    color: white;
+  }
   .button__uno:hover {
     background: violet;
+    cursor: pointer;
   }
 
+  .button__dos {
+    background: #e7305b;
+  }
   .button__dos:hover {
     background: turquoise;
+    cursor: pointer;
   }
 }
 .hero-section {

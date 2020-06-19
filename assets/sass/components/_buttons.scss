@@ -1,3 +1,4 @@
+/*configuracion de los botones*/
 .button{
     display: none;
 }
@@ -6,12 +7,21 @@
     .button{
         display: block;
     }
-    .button__uno:hover{
-        background: violet;
+    .button__uno{
+        background: $boton-1;
+        color: white;
+        &:hover{
+            background: violet;
+            cursor: pointer;
+        }
         
     }
-    .button__dos:hover{
-        background: turquoise;
+    .button__dos{
+       background: $boton-2;
+       &:hover{
+           background: turquoise;
+           cursor: pointer;
+       }
     }
     
         
