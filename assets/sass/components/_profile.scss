@@ -1,17 +1,17 @@
 .profile{
-    padding: 25px 0px;
+    padding: 1.5625rem 0px;
     display: flex;
     justify-content: center;
 align-items: center;
     .profile__image{
         border-radius: 50%;
-        width: 100px;
-        height: 100px;
+        width: 6.25rem;
+        height: 6.25rem;
     }
     .profile__usuario{
         p{
            margin: 0px;
-           padding-left: 20px;
+           padding-left: 1.25rem;
         }
         
         
@@ -24,6 +24,6 @@ align-items: center;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0px 150px;
+        padding: 0px 9.375rem;
     }
 }

@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*variables de tipografia y color*/
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -9909,6 +9910,7 @@ h3 {
     border-color: #dee2e6;
   }
 }
+/*reset del documento*/
 body {
   margin: 0px;
   padding: 0px;
@@ -9924,7 +9926,7 @@ img {
   display: flex;
 }
 .logo .logo__titulo {
-  font-size: 50px;
+  font-size: 3.125em;
   font-weight: 600;
   margin: 0px;
 }
@@ -9932,9 +9934,13 @@ img {
   padding-top: 10px;
 }
 
+.logo__registro--color {
+  color: black;
+}
+
 .usuario__name {
   font-family: "MuseoModerno", cursive;
-  font-size: 30px;
+  font-size: 1.875em;
 }
 
 .usuario__seguidores {
@@ -9945,7 +9951,7 @@ img {
 
 .videos__titulo {
   text-align: center;
-  padding: 20px 0px;
+  padding: 1.25rem 0px;
   font-family: "MuseoModerno", cursive;
   font-weight: 800;
   margin: 0px;
@@ -9956,34 +9962,34 @@ h3 {
   font-family: "MuseoModerno", cursive;
   font-weight: 800;
   margin: 0px;
-  padding: 10px 0px;
+  padding: 0.625rem 0px;
 }
 
 .seguidores {
   font-family: "MuseoModerno", cursive;
   font-weight: 300;
   margin: 0px;
-  padding: 10px 0px 20px 0px;
+  padding: 0.625rem 0px 1.25rem 0px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1980px) {
   .videos__titulo {
     text-align: start;
-    padding: 60px 0px;
+    padding: 3.75rem 0px;
   }
 }
 #videos {
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 @media only screen and (min-width: 600px) and (max-width: 899px) {
   #videos {
-    padding: 0px 100px;
+    padding: 0px 6.25rem;
   }
 }
 @media only screen and (min-width: 899px) and (max-width: 1980px) {
   #videos {
-    padding: 0px 150px;
+    padding: 0px 9.375rem;
   }
 }
 /*configuracion de los botones*/
@@ -10024,23 +10030,23 @@ h3 {
 @media only screen and (min-width: 1000px) and (max-width: 1980px) {
   .hero-section {
     background-attachment: fixed;
-    height: 550px;
+    height: 34.375rem;
   }
 }
 .profile {
-  padding: 25px 0px;
+  padding: 1.5625rem 0px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .profile .profile__image {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 6.25rem;
+  height: 6.25rem;
 }
 .profile .profile__usuario p {
   margin: 0px;
-  padding-left: 20px;
+  padding-left: 1.25rem;
 }
 
 @media only screen and (min-width: 900px) and (max-width: 1980px) {
@@ -10048,7 +10054,7 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 150px;
+    padding: 0px 9.375rem;
   }
 }
 .navbar {
@@ -10057,9 +10063,15 @@ h3 {
   z-index: 1;
 }
 
+/*borrar el borde de la hamburguesa (hay que colocarle important*/
+.navbar-light, .navbar-toggler {
+  color: white !important;
+  border-color: transparent !important;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1980px) {
   .navbar {
-    padding: 0px 150px;
+    padding: 0px 9.375rem;
     height: auto;
   }
 }

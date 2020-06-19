@@ -2,7 +2,7 @@
 .logo{
     display: flex;
     .logo__titulo{
-        font-size: 50px;
+        font-size: 3.125em;
         font-weight: $logo-weight;
         margin: 0px;
     }
@@ -11,10 +11,15 @@
     }
 }
 
+// cambio de color para no afectar el important de color en el navbar
+.logo__registro--color{
+color: black;    
+}
+
 // tipografia de profile
 .usuario__name{
     font-family: $titulo-videos;
-    font-size: 30px;
+    font-size: 1.875em;
 }
 .usuario__seguidores{
     @include texto;
@@ -23,23 +28,23 @@
 // tipografia de videos
 .videos__titulo{
     text-align: center;
-    padding: 20px 0px;
+    padding: 1.25rem 0px;
     @include titulo;
     font-size: 1.5625rem;
 }
 h3{
     @include titulo;
-    padding: 10px 0px;
+    padding: 0.625rem 0px;
 }
 .seguidores{
     @include texto;
-    padding: 10px 0px 20px 0px;
+    padding: 0.625rem 0px 1.25rem 0px;
 }
 
 // aplicar media queries
 @media only screen and (min-width: 768px) and (max-width: 1980px){
     .videos__titulo{
         text-align: start;
-        padding: 60px 0px;
+        padding: 3.75rem 0px;
     }
 }

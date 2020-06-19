@@ -4,11 +4,16 @@
     z-index: 1;
 }
 
+/*borrar el borde de la hamburguesa (hay que colocarle important*/
+.navbar-light, .navbar-toggler{
+    color: white !important;
+    border-color: transparent !important;
+}
 // aplicar media queries
 
 @media only screen and (min-width: 768px) and (max-width: 1980px){
     .navbar{
-        padding: 0px 150px;
+        padding: 0px 9.375rem;
         height: auto;
     }
 }
